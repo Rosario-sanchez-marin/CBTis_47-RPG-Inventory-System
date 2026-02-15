@@ -6,5 +6,5 @@
 **Integrantes del equipo**
 - The Data Modeler (Arquitecto JSON). Sánchez marín Maria del Rosario 
 - The Query Developer (Constructor MQL). Virgen Juarez Camila 
-- The Integration Specialist (Configurador del Entorno).
-- The Data Seeder / QA (Generador de Caos). 
+- The Integration Specialist (Configurador del Entorno). Valiente Marin Yoanna 
+- The Data Seeder / QA (Generador de Caos). Velazquez Reyes Axel Juda 
