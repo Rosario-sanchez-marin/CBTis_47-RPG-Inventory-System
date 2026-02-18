@@ -5,8 +5,9 @@
 
     "email": "sanchezmarinrosariom3s2@gmail.com",
 
-    "address":"Homex",{
-   
+    "address":{
+      "street": ""
+    }
     "birthdate": 12/16/2009,
     
     
