@@ -1,6 +1,6 @@
 {
-  "name": "Rosario",
-  "surname": "Sanchez Marin",
+  "firstName": "Rosario",
+  "lastName": "Sanchez",
   "birthdate": "12-16-2009",
   "email": "sanchezmarinrosariom3s2@gmail.com",
   "address": {
@@ -12,8 +12,10 @@
     "gender": "female",
     "occupation": "Student",
     "hobbies": [
-      "Listen to music, play basketball, lettering"
-    ]
+      "Listen to music", 
+      "play basketball", 
+      "lettering"
+    ],
   },
 }
 
