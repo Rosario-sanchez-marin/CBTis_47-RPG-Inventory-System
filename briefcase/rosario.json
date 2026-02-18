@@ -1,8 +1,17 @@
  
   {
-    'name':'Rosario',
-    'birthdate': 12/16/2009,
-    'address':'Homex'
+    "name":"Rosario",
+    "surnames": "Sanchez Marin"
+
+    "email": "sanchezmarinrosariom3s2@gmail.com",
+
+    "address":"Homex",{
+   
+    "birthdate": 12/16/2009,
+    
+    
+    ""
+   
     
     
   }
