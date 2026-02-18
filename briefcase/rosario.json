@@ -1,21 +1,19 @@
- 
-  {
-    "name":"Rosario",
-    "surnames": "Sanchez Marin"
-
-    "email": "sanchezmarinrosariom3s2@gmail.com",
-
-    "address":{
-      "street": ""
-    }
-    "birthdate": 12/16/2009,
-    
-    
-    ""
-   
-    
-    
-  }
-
-
+{
+  "name": "Rosario",
+  "surname": "Sanchez Marin",
+  "birthdate": "12-16-2009",
+  "email": "sanchezmarinrosariom3s2@gmail.com",
+  "address": {
+    "street": "San Antonio Street",
+    "City": "Cordoba",
+    "state": "Veracruz"
+  },
+  "extra date": {
+    "gender": "female",
+    "occupation": "Student",
+    "hobbies": [
+      "Listen to music, play basketball, lettering"
+    ]
+  },
+}
 
