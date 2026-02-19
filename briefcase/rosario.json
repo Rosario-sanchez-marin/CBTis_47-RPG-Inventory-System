@@ -1,6 +1,7 @@
 {
-  "firstName": "Rosario",
-  "lastName": "Sanchez",
+  "firstName": "Maria",
+  "middleName": "Rosario",
+  "lastName": "Sanchez Marin",
   "birthdate": "12-16-2009",
   "email": "sanchezmarinrosariom3s2@gmail.com",
   "address": {
@@ -8,14 +9,52 @@
     "City": "Cordoba",
     "state": "Veracruz"
   },
-  "extra date": {
-    "gender": "female",
-    "occupation": "Student",
-    "hobbies": [
-      "Listen to music", 
-      "play basketball", 
-      "lettering"
-    ],
-  },
+  "gender": "female",
+  "occupation": "Student",
+  "hobbies": [
+    "Listen to music",
+    "play basketball",
+    "lettering"
+  ],
+  "friends": [
+    {
+      "firstName": "Camila",
+      "lastName": "Virgen Juarez",
+      "birthdate": "02-16-2009",
+      "email": "virgenjuarezcamilam3s2@gmail.com",
+      "City": "Cordoba",
+      "hobbies": [
+        "Programming",
+        "painting",
+        "knitting",
+        "drawing"
+      ]
+    },
+    {
+      "firstName": "Fatima ",
+      "middleName": "Yocelin",
+      "lastName": "Ramirez Lopez",
+      "birthdate": "01-05-2009",
+      "email": "ramirezlopezfatimayocelinm3s2@gmail.com",
+      "City": "Cordoba",
+      "hobbies": [
+        "sleep",
+        "pet care",
+        "draw"
+      ]
+    },
+    {
+      "firstName": "Maria",
+      "middleName": "Argel",
+      "lastName": "Rueda Jaime",
+      "birthdate": "04-07-2009",
+      "email": "ruedajaimeargelm3s2@gmail.com",
+      "City": "orizaba",
+      "hobbies": [
+        "play soccer",
+        "eat",
+        "have a picnic"
+      ]
+    }
+  ]
 }
-
