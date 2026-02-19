@@ -1,23 +1,23 @@
 {
-  "name": "Axel",
-  "surnames":"Velazquez Reyes",
-  "birth_date": "05-04-2009",
+  "firstname": "Axel",
+  "lastnames":"Velazquez Reyes",
+  "birthDate": "05-04-2009",
   "email": "velazquez.reyes.axel.m3s2@gmail.com",
-
   "address": {
     "street": " Street San Fransisco S/N",
     "city": "cordoba",
     "state": "veracruz",
   },
-  
   "gender": "male",
   "occupation": "Student",
-  "interests": "music, writing, tracking,"
+  "interests": [
+    "music",
+    "writing",
+    "tracking",
+  ],
+  "friends": [
+    {
 
-  },
-
-  {
-    "firstname": 
     
   
   
