@@ -5,8 +5,8 @@
 title:RPG Inventory System 
 ---
 erDiagram
-    PLAYER ||--o{ INVENTORY : posee
-    INVENTORY ||--o{ ITEM : contiene
+    PLAYER ||--o{ INVENTORY : owns
+    INVENTORY ||--o{ ITEM : contains
 
     PLAYER {
         int id
@@ -30,3 +30,4 @@ erDiagram
         string coordinates
     }
 ```
+
