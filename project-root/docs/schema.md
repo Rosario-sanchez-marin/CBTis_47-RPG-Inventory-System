@@ -32,7 +32,7 @@ erDiagram
     }
 
     MAP {
-        int id player
+        int id
         string name player
         string region
         string x-coordinate
@@ -40,6 +40,7 @@ erDiagram
     }
     }
 ```
+
 
 
 
