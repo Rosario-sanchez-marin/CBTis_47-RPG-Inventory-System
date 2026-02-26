@@ -7,6 +7,8 @@ title:RPG Inventory System
 erDiagram
     PLAYER ||--o{ INVENTORY : owns
     INVENTORY ||--o{ ITEM : contains
+    MAP ||--o{ ITEM : locates
+    MAP ||--o{ PLAYER : hosts
 
     PLAYER {
         int id
@@ -27,7 +29,15 @@ erDiagram
         int durability
         string effect
         int duration
+    }
+
+    MAP {
+        int id
+        string name
+        string terrain
+        string region
         string coordinates
     }
 ```
+
 
