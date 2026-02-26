@@ -32,12 +32,14 @@ erDiagram
     }
 
     MAP {
-        int id
-        string name
-        string terrain
+        int id player
+        string name player
         string region
-        string coordinates
+        string x-coordinate
+        string y-coordinate
+    }
     }
 ```
+
 
 
