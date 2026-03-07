@@ -1,0 +1,787 @@
+[
+  {
+    "map_id": 1,
+    "map_name": "Jatinagara Kulon",
+    "region": "north",
+    "x_coordinate": -2,
+    "y_coordinate": 62,
+    "player_id": 1,
+    "Username": "ctrillo0",
+    "level": 48,
+    "active_status": true,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "weapon",
+        "item_name": "iron_sword",
+        "stats": { "damage": 6, "durability": 250 }
+      },
+      {
+        "item_id": 2,
+        "type_item": "food",
+        "item_name": "golden_apple",
+        "stats": { "effect": "regeneration", "duration": 30 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 2,
+    "map_name": "Pamplona/Iruña",
+    "region": "east",
+    "x_coordinate": 64,
+    "y_coordinate": -100,
+    "player_id": 2,
+    "Username": "saltree1",
+    "level": 35,
+    "active_status": false,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "tool",
+        "item_name": "diamond_pickaxe",
+        "stats": { "efficiency": 5, "durability": 1561 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 3,
+    "map_name": "Sonzacate",
+    "region": "asia",
+    "x_coordinate": 227,
+    "y_coordinate": 74,
+    "player_id": 3,
+    "Username": "fmountjoy2",
+    "level": 23,
+    "active_status": false,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "armor",
+        "item_name": "leather_chestplate",
+        "stats": { "protection": 3, "durability": 80 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 4,
+    "map_name": "Hushan",
+    "region": "north",
+    "x_coordinate": 70,
+    "y_coordinate": 82,
+    "player_id": 4,
+    "Username": "apickin3",
+    "level": 75,
+    "active_status": false,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "weapon",
+        "item_name": "diamond_sword",
+        "stats": { "damage": 7, "durability": 1561 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 5,
+    "map_name": "Kurungannyawa",
+    "region": "america",
+    "x_coordinate": 68,
+    "y_coordinate": 264,
+    "player_id": 5,
+    "Username": "sbresman4",
+    "level": 18,
+    "active_status": false,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "food",
+        "item_name": "cooked_beef",
+        "stats": { "effect": "heal", "duration": 8 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 6,
+    "map_name": "Kang",
+    "region": "america",
+    "x_coordinate": 130,
+    "y_coordinate": 35,
+    "player_id": 6,
+    "Username": "kketchell5",
+    "level": 46,
+    "active_status": false,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "weapon",
+        "item_name": "netherite_axe",
+        "stats": { "damage": 10, "durability": 2031 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 7,
+    "map_name": "Gaopeng",
+    "region": "east",
+    "x_coordinate": 129,
+    "y_coordinate": 215,
+    "player_id": 7,
+    "Username": "cjefferson6",
+    "level": 53,
+    "active_status": true,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "tool",
+        "item_name": "iron_shovel",
+        "stats": { "efficiency": 2, "durability": 250 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 8,
+    "map_name": "Shuangpu",
+    "region": "asia",
+    "x_coordinate": -75,
+    "y_coordinate": 19,
+    "player_id": 8,
+    "Username": "tmaingot7",
+    "level": 81,
+    "active_status": true,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "weapon",
+        "item_name": "bow",
+        "stats": { "damage": 9, "durability": 384 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 9,
+    "map_name": "Gayamdesa",
+    "region": "south",
+    "x_coordinate": 171,
+    "y_coordinate": 95,
+    "player_id": 9,
+    "Username": "skillingsworth8",
+    "level": 98,
+    "active_status": true,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "armor",
+        "item_name": "netherite_helmet",
+        "stats": { "protection": 3, "durability": 407 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 10,
+    "map_name": "Huangludian",
+    "region": "oceania",
+    "x_coordinate": 262,
+    "y_coordinate": 238,
+    "player_id": 10,
+    "Username": "jkilbey9",
+    "level": 90,
+    "active_status": true,
+    "inventory": [
+      {
+        "item_id": 1,
+        "type_item": "food",
+        "item_name": "bread",
+        "stats": { "effect": "heal", "duration": 5 }
+      }
+    ]
+  },
+
+  {
+    "map_id": 11,
+    "map_name": "Chengshan",
+    "region": "east",
+    "x_coordinate": 240,
+    "y_coordinate": 169,
+    "player_id": 11,
+    "Username": "gyaldrena",
+    "level": 41,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "weapon", "item_name": "stone_sword", "stats": { "damage": 5, "durability": 131 } }
+    ]
+  },
+
+  {
+    "map_id": 12,
+    "map_name": "Kolonia Town",
+    "region": "east",
+    "x_coordinate": -48,
+    "y_coordinate": 286,
+    "player_id": 12,
+    "Username": "mnuschab",
+    "level": 91,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "material", "item_name": "diamond", "stats": { "stack_size": 64, "renewable": false } }
+    ]
+  },
+
+  {
+    "map_id": 13,
+    "map_name": "Lidköping",
+    "region": "west",
+    "x_coordinate": 150,
+    "y_coordinate": 120,
+    "player_id": 13,
+    "Username": "user13",
+    "level": 15,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "food", "item_name": "apple", "stats": { "effect": "heal", "duration": 4 } }
+    ]
+  },
+
+  {
+    "map_id": 14,
+    "map_name": "Paris",
+    "region": "west",
+    "x_coordinate": 48,
+    "y_coordinate": 2,
+    "player_id": 14,
+    "Username": "user14",
+    "level": 60,
+    "active_status": false,
+    "inventory": [
+      { "item_id": 1, "type_item": "weapon", "item_name": "iron_axe", "stats": { "damage": 9, "durability": 250 } }
+    ]
+  },
+
+  {
+    "map_id": 15,
+    "map_name": "Tokyo",
+    "region": "east",
+    "x_coordinate": 35,
+    "y_coordinate": 139,
+    "player_id": 15,
+    "Username": "user15",
+    "level": 88,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "armor", "item_name": "gold_leggings", "stats": { "protection": 3, "durability": 105 } }
+    ]
+  },
+
+  {
+    "map_id": 16,
+    "map_name": "Madrid",
+    "region": "west",
+    "x_coordinate": 40,
+    "y_coordinate": -3,
+    "player_id": 16,
+    "Username": "user16",
+    "level": 42,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "tool", "item_name": "fishing_rod", "stats": { "durability": 64 } }
+    ]
+  },
+
+  {
+    "map_id": 17,
+    "map_name": "Berlin",
+    "region": "west",
+    "x_coordinate": 52,
+    "y_coordinate": 13,
+    "player_id": 17,
+    "Username": "user17",
+    "level": 33,
+    "active_status": false,
+    "inventory": [
+      { "item_id": 1, "type_item": "material", "item_name": "cobblestone", "stats": { "stack_size": 64, "renewable": true } }
+    ]
+  },
+
+  {
+    "map_id": 18,
+    "map_name": "Rome",
+    "region": "west",
+    "x_coordinate": 41,
+    "y_coordinate": 12,
+    "player_id": 18,
+    "Username": "user18",
+    "level": 51,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "weapon", "item_name": "crossbow", "stats": { "damage": 11, "durability": 326 } }
+    ]
+  },
+
+  {
+    "map_id": 19,
+    "map_name": "Cairo",
+    "region": "south",
+    "x_coordinate": 30,
+    "y_coordinate": 31,
+    "player_id": 19,
+    "Username": "user19",
+    "level": 22,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "food", "item_name": "carrot", "stats": { "effect": "heal", "duration": 3 } }
+    ]
+  },
+
+  {
+    "map_id": 20,
+    "map_name": "Sydney",
+    "region": "oceania",
+    "x_coordinate": -33,
+    "y_coordinate": 151,
+    "player_id": 20,
+    "Username": "user20",
+    "level": 70,
+    "active_status": false,
+    "inventory": [
+      { "item_id": 1, "type_item": "armor", "item_name": "diamond_boots", "stats": { "protection": 3, "durability": 429 } }
+    ]
+  },
+
+  {
+    "map_id": 21,
+    "map_name": "New York",
+    "region": "north",
+    "x_coordinate": 40,
+    "y_coordinate": -74,
+    "player_id": 21,
+    "Username": "user21",
+    "level": 95,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "weapon", "item_name": "netherite_sword", "stats": { "damage": 8, "durability": 2031 } }
+    ]
+  },
+
+  {
+    "map_id": 22,
+    "map_name": "London",
+    "region": "west",
+    "x_coordinate": 51,
+    "y_coordinate": 0,
+    "player_id": 22,
+    "Username": "user22",
+    "level": 44,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "material", "item_name": "oak_log", "stats": { "stack_size": 64, "renewable": true } }
+    ]
+  },
+
+  {
+    "map_id": 23,
+    "map_name": "Moscow",
+    "region": "east",
+    "x_coordinate": 55,
+    "y_coordinate": 37,
+    "player_id": 23,
+    "Username": "user23",
+    "level": 66,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "weapon", "item_name": "iron_pickaxe", "stats": { "damage": 4, "durability": 250 } }
+    ]
+  },
+
+  {
+    "map_id": 24,
+    "map_name": "Beijing",
+    "region": "east",
+    "x_coordinate": 39,
+    "y_coordinate": 116,
+    "player_id": 24,
+    "Username": "user24",
+    "level": 12,
+    "active_status": false,
+    "inventory": [
+      { "item_id": 1, "type_item": "food", "item_name": "baked_potato", "stats": { "effect": "heal", "duration": 5 } }
+    ]
+  },
+
+  {
+    "map_id": 25,
+    "map_name": "Seoul",
+    "region": "east",
+    "x_coordinate": 37,
+    "y_coordinate": 126,
+    "player_id": 25,
+    "Username": "user25",
+    "level": 58,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "armor", "item_name": "gold_helmet", "stats": { "protection": 2, "durability": 77 } }
+    ]
+  },
+
+  {
+    "map_id": 26,
+    "map_name": "Bangkok",
+    "region": "asia",
+    "x_coordinate": 13,
+    "y_coordinate": 100,
+    "player_id": 26,
+    "Username": "user26",
+    "level": 27,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "tool", "item_name": "compass", "stats": { "renewable": true } }
+    ]
+  },
+
+  {
+    "map_id": 27,
+    "map_name": "Mumbai",
+    "region": "asia",
+    "x_coordinate": 19,
+    "y_coordinate": 72,
+    "player_id": 27,
+    "Username": "user27",
+    "level": 49,
+    "active_status": false,
+    "inventory": [
+      { "item_id": 1, "type_item": "food", "item_name": "melon_slice", "stats": { "effect": "heal", "duration": 2 } }
+    ]
+  },
+
+  {
+    "map_id": 28,
+    "map_name": "Dubai",
+    "region": "asia",
+    "x_coordinate": 25,
+    "y_coordinate": 55,
+    "player_id": 28,
+    "Username": "user28",
+    "level": 82,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "material", "item_name": "gold_ingot", "stats": { "stack_size": 64, "renewable": false } }
+    ]
+  },
+
+  {
+    "map_id": 29,
+    "map_name": "Istanbul",
+    "region": "east",
+    "x_coordinate": 41,
+    "y_coordinate": 28,
+    "player_id": 29,
+    "Username": "user29",
+    "level": 37,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "weapon", "item_name": "shield", "stats": { "durability": 336 } }
+    ]
+  },
+
+  {
+    "map_id": 30,
+    "map_name": "Lima",
+    "region": "america",
+    "x_coordinate": -12,
+    "y_coordinate": -77,
+    "player_id": 30,
+    "Username": "user30",
+    "level": 19,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "food", "item_name": "steak", "stats": { "effect": "heal", "duration": 8 } }
+    ]
+  },
+
+  {
+    "map_id": 31,
+    "map_name": "Bogota",
+    "region": "america",
+    "x_coordinate": 4,
+    "y_coordinate": -74,
+    "player_id": 31,
+    "Username": "user31",
+    "level": 63,
+    "active_status": false,
+    "inventory": [
+      { "item_id": 1, "type_item": "material", "item_name": "coal", "stats": { "stack_size": 64, "renewable": true } }
+    ]
+  },
+
+  {
+    "map_id": 32,
+    "map_name": "Santiago",
+    "region": "america",
+    "x_coordinate": -33,
+    "y_coordinate": -70,
+    "player_id": 32,
+    "Username": "user32",
+    "level": 74,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "weapon", "item_name": "diamond_axe", "stats": { "damage": 9, "durability": 1561 } }
+    ]
+  },
+
+  {
+    "map_id": 33,
+    "map_name": "Oslo",
+    "region": "west",
+    "x_coordinate": 59,
+    "y_coordinate": 10,
+    "player_id": 33,
+    "Username": "user33",
+    "level": 52,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "tool", "item_name": "spyglass", "stats": { "renewable": true } }
+    ]
+  },
+
+  {
+    "map_id": 34,
+    "map_name": "Stockholm",
+    "region": "west",
+    "x_coordinate": 59,
+    "y_coordinate": 18,
+    "player_id": 34,
+    "Username": "user34",
+    "level": 41,
+    "active_status": false,
+    "inventory": [
+      { "item_id": 1, "type_item": "armor", "item_name": "iron_leggings", "stats": { "protection": 5, "durability": 225 } }
+    ]
+  },
+
+  {
+    "map_id": 35,
+    "map_name": "Helsinki",
+    "region": "west",
+    "x_coordinate": 60,
+    "y_coordinate": 24,
+    "player_id": 35,
+    "Username": "user35",
+    "level": 29,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "food", "item_name": "sweet_berries", "stats": { "effect": "heal", "duration": 2 } }
+    ]
+  },
+
+  {
+    "map_id": 36,
+    "map_name": "Athens",
+    "region": "east",
+    "x_coordinate": 37,
+    "y_coordinate": 23,
+    "player_id": 36,
+    "Username": "user36",
+    "level": 67,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "tool", "item_name": "clock", "stats": { "renewable": true } }
+    ]
+  },
+
+  {
+    "map_id": 37,
+    "map_name": "Lisbon",
+    "region": "west",
+    "x_coordinate": 38,
+    "y_coordinate": -9,
+    "player_id": 37,
+    "Username": "user37",
+    "level": 85,
+    "active_status": false,
+    "inventory": [
+      { "item_id": 1, "type_item": "weapon", "item_name": "iron_sword", "stats": { "damage": 6, "durability": 250 } }
+    ]
+  },
+
+  {
+    "map_id": 38,
+    "map_name": "Vienna",
+    "region": "west",
+    "x_coordinate": 48,
+    "y_coordinate": 16,
+    "player_id": 38,
+    "Username": "user38",
+    "level": 46,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "material", "item_name": "redstone", "stats": { "stack_size": 64, "renewable": true } }
+    ]
+  },
+
+  {
+    "map_id": 39,
+    "map_name": "Prague",
+    "region": "west",
+    "x_coordinate": 50,
+    "y_coordinate": 14,
+    "player_id": 39,
+    "Username": "user39",
+    "level": 31,
+    "active_status": true,
+    "inventory": [
+      { "item_id": 1, "type_item": "food", "item_name": "pumpkin_pie", "stats": { "effect": "heal", "duration": 8 } }
+    ]
+  },
+
+  {
+    "map_id": 40,
+    "map_name": "Warsaw",
+    "region": "west",
+    "x_coordinate": 52,
+    "y_coordinate": 21,
+    "player_id": 40,
+    "Username": "user40",
+    "level": 78,
+    "active_status": false,
+    "inventory": [
+      { "item_id": 1, "type_item": "weapon", "item_name": "diamond_sword", "stats": { "damage": 7, "durability": 1561 } }
+    ]
+  },
+
+  {
+    "map_id": 41,
+    "map_name": "Budapest",
+    "region": "west",
+    "x_coordinate": 47,
+    "y_coordinate": 19,
+    "player_id": 41,
+    "Username": "user41",
+    "level": 40,
+    "active_status": true,
+    "inventory": []
+  },
+
+  {
+    "map_id": 42,
+    "map_name": "Kiev",
+    "region": "east",
+    "x_coordinate": 50,
+    "y_coordinate": 30,
+    "player_id": 42,
+    "Username": "user42",
+    "level": 92,
+    "active_status": true,
+    "inventory": []
+  },
+
+  {
+    "map_id": 43,
+    "map_name": "Bucharest",
+    "region": "east",
+    "x_coordinate": 44,
+    "y_coordinate": 26,
+    "player_id": 43,
+    "Username": "user43",
+    "level": 14,
+    "active_status": false,
+    "inventory": []
+  },
+
+  {
+    "map_id": 44,
+    "map_name": "Eloy Alfaro",
+    "region": "north",
+    "x_coordinate": 101,
+    "y_coordinate": 262,
+    "player_id": 44,
+    "Username": "dfoulger3",
+    "level": 21,
+    "active_status": false,
+    "inventory": []
+  },
+
+  {
+    "map_id": 45,
+    "map_name": "Guanxi",
+    "region": "south",
+    "x_coordinate": -44,
+    "y_coordinate": 287,
+    "player_id": 45,
+    "Username": "jkinson4",
+    "level": 5,
+    "active_status": true,
+    "inventory": []
+  },
+
+  {
+    "map_id": 46,
+    "map_name": "Kang",
+    "region": "america",
+    "x_coordinate": 130,
+    "y_coordinate": 35,
+    "player_id": 46,
+    "Username": "kketchell5",
+    "level": 46,
+    "active_status": false,
+    "inventory": []
+  },
+
+  {
+    "map_id": 47,
+    "map_name": "Gaopeng",
+    "region": "east",
+    "x_coordinate": 129,
+    "y_coordinate": 215,
+    "player_id": 47,
+    "Username": "user47",
+    "level": 53,
+    "active_status": true,
+    "inventory": []
+  },
+
+  {
+    "map_id": 48,
+    "map_name": "Shuangpu",
+    "region": "asia",
+    "x_coordinate": -75,
+    "y_coordinate": 19,
+    "player_id": 48,
+    "Username": "user48",
+    "level": 81,
+    "active_status": true,
+    "inventory": []
+  },
+
+  {
+    "map_id": 49,
+    "map_name": "Lautaro",
+    "region": "south",
+    "x_coordinate": 265,
+    "y_coordinate": -62,
+    "player_id": 49,
+    "Username": "user49",
+    "level": 28,
+    "active_status": true,
+    "inventory": []
+  },
+
+  {
+    "map_id": 50,
+    "map_name": "Nazir Town",
+    "region": "south",
+    "x_coordinate": 97,
+    "y_coordinate": -32,
+    "player_id": 50,
+    "Username": "user50",
+    "level": 90,
+    "active_status": false,
+    "inventory": []
+  }
+]
