@@ -1,0 +1,47 @@
+{
+  "firstName": "Camila",
+  "lastName": "Virgen Juárez",
+  "birthDate": "02-16-2009",
+  "email": "virgenjuarezcamilam3s2@gmail.com",
+  "address": {
+    "street": "21st Street, 23rd Avenue",
+    "city": "Cordoba",
+    "state": "Veracruz"
+  },
+  "gender": "female",
+  "occupation": "Student",
+  "interests": [
+    "Programming",
+    "painting",
+    "knitting",
+    "drawing"
+  ],
+  "friends": [
+    {
+      "firstName": "Maria",
+      "middleName": "Rosario",
+     "lastName":  "Sanchez Marín",
+       "birthDate": "12-16-2009",
+        "email": "sanchezmarinrosariom3s2@gmail.com",
+         "city": "Cordoba",
+          "interests": ["basketball", "lettering", "photograph"]
+    },
+    {
+      "firstName": "Fatima",
+       "lastName":  "Yocelin",
+       "birthDate": "01-05-2009",
+        "email": "ramirezlopezfatimayocelinm3s2@gmail.com",
+         "city": "Cordoba",
+          "interests": ["sleep", "Pet care", "draw"]
+    },
+    {
+    "firstName": "Maria",
+      "middleName": "Argel",
+       "lastName":  "Rueda Jaime",
+       "birthDate": "04-07-2009",
+        "email": "ruedajaimeargelm3s2@gmail.com",
+         "city": "orizaba",
+          "interests": ["play soccer", "eat", "have a picnic"]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "firstname": "Axel",
+  "lastnames":"Velazquez Reyes",
+  "birthDate": "05-04-2009",
+  "email": "velazquez.reyes.axel.m3s2@gmail.com",
+  "address": {
+    "street": " Street San Fransisco S/N",
+    "city": "cordoba",
+    "state": "veracruz",
+  },
+  "gender": "male",
+  "occupation": "Student",
+  "interests": [
+    "music",
+    "writing",
+    "tracking",
+  ],
+  "friends": [
+    {
+      "firstName": "yoanna",
+      "middleName": "",
+     "lastName":  "Valiente Marin",
+       "birthDate": "01-03-2009",
+        "email": "attevaliente@gmail.com",
+         "city": "Cordoba",
+      "gender": "female",
+          "hobbies,": ["music", "travel", "nostalgia"]
+       },
+     {
+      "firstName": "Valentina",
+      "middleName": "",
+      "lastName":  "Lemus Moctezuma",
+      "birthDate": "16-07-2010",
+      "email": "lenny1608@gmail.com",
+       "city": "CDMX",
+      "gender": "female",
+       "hobbies,": ["music", "skate", "draw", "ice skating"]
+       },
+    {
+      "firstName": "Siham",
+      "middleName": "Sahar",
+      "lastName":  "Nixticapa Ibarra",
+      "birthDate": "23-05-2009",
+      "email": "Sihamnixticapa@gmail.com",
+       "city": "Puebla",
+      "gender": "female",
+       "hobbies,": ["play games", "weave", "the music"]
+    }
+  ]
+}
+      
+       
+ 
