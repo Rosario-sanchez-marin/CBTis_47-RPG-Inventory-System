@@ -395,8 +395,3 @@ git push origin feature/AmazingFeature
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
----
-
-<div align="center">
-  Made with ❤️ by CBTis 47 — Orizaba, Veracruz
-</div>
