@@ -1,0 +1,6959 @@
+[
+  {
+    "username": "shadowblade",
+    "email": "carlos.mendez@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 3,
+    "max_level_reached": 3,
+    "totalKeys": 3,
+    "xp": 750,
+    "stats": {
+      "hp": 83,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "crystalwitch",
+    "email": "sofia.ramirez@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 8,
+    "max_level_reached": 8,
+    "totalKeys": 8,
+    "xp": 4000,
+    "stats": {
+      "hp": 79,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Biblioteca",
+        "item_id": "key_08",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pagina Maldita",
+        "type": "consumable",
+        "item_id": "pagina_maldita",
+        "stats": {
+          "confusion_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "ironforge",
+    "email": "diego.torres@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 8,
+    "max_level_reached": 8,
+    "totalKeys": 8,
+    "xp": 4000,
+    "stats": {
+      "hp": 79,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Biblioteca",
+        "item_id": "key_08",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pagina Maldita",
+        "type": "consumable",
+        "item_id": "pagina_maldita",
+        "stats": {
+          "confusion_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "nightwalker",
+    "email": "valentina.lopez@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 7,
+    "max_level_reached": 7,
+    "totalKeys": 7,
+    "xp": 3150,
+    "stats": {
+      "hp": 81,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "stormcaller",
+    "email": "andres.garcia@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "totalKeys": 6,
+    "xp": 2400,
+    "stats": {
+      "hp": 93,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 2,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "ashenveil",
+    "email": "camila.herrera@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 1,
+    "max_level_reached": 1,
+    "totalKeys": 1,
+    "xp": 150,
+    "stats": {
+      "hp": 50,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "frostbyte",
+    "email": "luis.perez@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 4,
+    "max_level_reached": 4,
+    "totalKeys": 4,
+    "xp": 1200,
+    "stats": {
+      "hp": 96,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "emberfall",
+    "email": "isabella.morales@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 4,
+    "max_level_reached": 4,
+    "totalKeys": 4,
+    "xp": 1200,
+    "stats": {
+      "hp": 82,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 2,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "voidhunter",
+    "email": "miguel.sanchez@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 4,
+    "max_level_reached": 4,
+    "totalKeys": 4,
+    "xp": 1200,
+    "stats": {
+      "hp": 82,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "silversong",
+    "email": "gabriela.jimenez@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 4,
+    "max_level_reached": 4,
+    "totalKeys": 4,
+    "xp": 1200,
+    "stats": {
+      "hp": 92,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "thornwood",
+    "email": "jose.castro@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "totalKeys": 5,
+    "xp": 1750,
+    "stats": {
+      "hp": 70,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "blazerunner",
+    "email": "mariana.reyes@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "totalKeys": 6,
+    "xp": 2400,
+    "stats": {
+      "hp": 78,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "darkweaver",
+    "email": "pablo.gutierrez@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 4,
+    "max_level_reached": 4,
+    "totalKeys": 4,
+    "xp": 1200,
+    "stats": {
+      "hp": 92,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 2,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "swiftarrow",
+    "email": "natalia.vargas@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "totalKeys": 2,
+    "xp": 400,
+    "stats": {
+      "hp": 74,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "stoneheart",
+    "email": "ricardo.flores@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "totalKeys": 2,
+    "xp": 400,
+    "stats": {
+      "hp": 62,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "ravenclaw",
+    "email": "lucia.diaz@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 8,
+    "max_level_reached": 8,
+    "totalKeys": 8,
+    "xp": 4000,
+    "stats": {
+      "hp": 82,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 2,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Biblioteca",
+        "item_id": "key_08",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pagina Maldita",
+        "type": "consumable",
+        "item_id": "pagina_maldita",
+        "stats": {
+          "confusion_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "moonshard",
+    "email": "fernando.ruiz@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "totalKeys": 5,
+    "xp": 1750,
+    "stats": {
+      "hp": 99,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "dustwalker",
+    "email": "daniela.ortiz@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 1,
+    "max_level_reached": 1,
+    "totalKeys": 1,
+    "xp": 150,
+    "stats": {
+      "hp": 64,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "flamecrest",
+    "email": "jorge.medina@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 7,
+    "max_level_reached": 7,
+    "totalKeys": 7,
+    "xp": 3150,
+    "stats": {
+      "hp": 81,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "iceveil",
+    "email": "andrea.cruz@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 1,
+    "max_level_reached": 1,
+    "totalKeys": 1,
+    "xp": 150,
+    "stats": {
+      "hp": 72,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "grimspell",
+    "email": "sebastian.romero@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "totalKeys": 2,
+    "xp": 400,
+    "stats": {
+      "hp": 78,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "goldenmane",
+    "email": "paula.pacheco@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "totalKeys": 6,
+    "xp": 2400,
+    "stats": {
+      "hp": 98,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "wraithborn",
+    "email": "emilio.soto@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 7,
+    "max_level_reached": 7,
+    "totalKeys": 7,
+    "xp": 3150,
+    "stats": {
+      "hp": 51,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "dawnseeker",
+    "email": "valeria.aguilar@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "totalKeys": 5,
+    "xp": 1750,
+    "stats": {
+      "hp": 73,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "shadowpact",
+    "email": "rodrigo.navarro@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 8,
+    "max_level_reached": 8,
+    "totalKeys": 8,
+    "xp": 4000,
+    "stats": {
+      "hp": 80,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Biblioteca",
+        "item_id": "key_08",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pagina Maldita",
+        "type": "consumable",
+        "item_id": "pagina_maldita",
+        "stats": {
+          "confusion_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "cresthunter",
+    "email": "carolina.rios@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 7,
+    "max_level_reached": 7,
+    "totalKeys": 7,
+    "xp": 3150,
+    "stats": {
+      "hp": 57,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "soulfire",
+    "email": "alejandro.vega@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "totalKeys": 2,
+    "xp": 400,
+    "stats": {
+      "hp": 69,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "bonereaper",
+    "email": "jimena.campos@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "totalKeys": 6,
+    "xp": 2400,
+    "stats": {
+      "hp": 76,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "mistwalker",
+    "email": "marco.espinoza@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "totalKeys": 2,
+    "xp": 400,
+    "stats": {
+      "hp": 97,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "bloodthorn",
+    "email": "paola.mendoza@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 7,
+    "max_level_reached": 7,
+    "totalKeys": 7,
+    "xp": 3150,
+    "stats": {
+      "hp": 95,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "starforged",
+    "email": "tomas.ibarra@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 4,
+    "max_level_reached": 4,
+    "totalKeys": 4,
+    "xp": 1200,
+    "stats": {
+      "hp": 76,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "skullmage",
+    "email": "fernanda.leal@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "totalKeys": 2,
+    "xp": 400,
+    "stats": {
+      "hp": 50,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "ironveil",
+    "email": "nicolas.bravo@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "totalKeys": 6,
+    "xp": 2400,
+    "stats": {
+      "hp": 56,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "cursedoak",
+    "email": "catalina.fuentes@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "totalKeys": 6,
+    "xp": 2400,
+    "stats": {
+      "hp": 94,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "gloomstrike",
+    "email": "hector.silva@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "totalKeys": 2,
+    "xp": 400,
+    "stats": {
+      "hp": 60,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "lightbane",
+    "email": "monica.acosta@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 1,
+    "max_level_reached": 1,
+    "totalKeys": 1,
+    "xp": 150,
+    "stats": {
+      "hp": 95,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "dragonmark",
+    "email": "rafael.paredes@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 2,
+    "max_level_reached": 2,
+    "totalKeys": 2,
+    "xp": 400,
+    "stats": {
+      "hp": 60,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "silverclaw",
+    "email": "diana.salinas@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "totalKeys": 5,
+    "xp": 1750,
+    "stats": {
+      "hp": 96,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "voidstep",
+    "email": "eduardo.pena@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 7,
+    "max_level_reached": 7,
+    "totalKeys": 7,
+    "xp": 3150,
+    "stats": {
+      "hp": 51,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 3,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "emberwing",
+    "email": "elena.molina@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 7,
+    "max_level_reached": 7,
+    "totalKeys": 7,
+    "xp": 3150,
+    "stats": {
+      "hp": 93,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "cryptblade",
+    "email": "victor.carrillo@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 1,
+    "max_level_reached": 1,
+    "totalKeys": 1,
+    "xp": 150,
+    "stats": {
+      "hp": 52,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "murkwater",
+    "email": "lorena.vidal@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "totalKeys": 6,
+    "xp": 2400,
+    "stats": {
+      "hp": 75,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "ashfall",
+    "email": "arturo.rojas@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "totalKeys": 5,
+    "xp": 1750,
+    "stats": {
+      "hp": 79,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "stoneborn",
+    "email": "beatriz.cano@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 8,
+    "max_level_reached": 8,
+    "totalKeys": 8,
+    "xp": 4000,
+    "stats": {
+      "hp": 71,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 2,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Biblioteca",
+        "item_id": "key_08",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pagina Maldita",
+        "type": "consumable",
+        "item_id": "pagina_maldita",
+        "stats": {
+          "confusion_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "glintfang",
+    "email": "sergio.marin@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 7,
+    "max_level_reached": 7,
+    "totalKeys": 7,
+    "xp": 3150,
+    "stats": {
+      "hp": 97,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "riftwalker",
+    "email": "claudia.pinto@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 6,
+    "max_level_reached": 6,
+    "totalKeys": 6,
+    "xp": 2400,
+    "stats": {
+      "hp": 85,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "hollowsong",
+    "email": "javier.montoya@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "totalKeys": 5,
+    "xp": 1750,
+    "stats": {
+      "hp": 68,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "furyborn",
+    "email": "alicia.guerrero@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 1,
+    "max_level_reached": 1,
+    "totalKeys": 1,
+    "xp": 150,
+    "stats": {
+      "hp": 50,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 2,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "specterclaw",
+    "email": "manuel.delgado@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 5,
+    "max_level_reached": 5,
+    "totalKeys": 5,
+    "xp": 1750,
+    "stats": {
+      "hp": 97,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  },
+  {
+    "username": "runebreaker",
+    "email": "rosa.cabrera@gmail.com",
+    "password_hash": "$2b$10$FlpHUbSlRgKt5BSBUCe3feUGFzc3dvcmQxIQ==6",
+    "current_level": 8,
+    "max_level_reached": 8,
+    "totalKeys": 8,
+    "xp": 4000,
+    "stats": {
+      "hp": 91,
+      "ataque": 10,
+      "defensa": 5
+    },
+    "inventory": [
+      {
+        "name": "Espada de Hierro",
+        "type": "weapon",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "damage": 10,
+          "durability": 50
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pocion de Salud",
+        "type": "consumable",
+        "cantidad": 1,
+        "equipado": false,
+        "stats": {
+          "heal": 30
+        },
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Jardin",
+        "item_id": "key_01",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Paso",
+        "item_id": "key_02",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Fragmento de Manto Dorado",
+        "type": "shield",
+        "item_id": "manto_01",
+        "stats": {
+          "absorcion": 15
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de las Minas",
+        "item_id": "key_03",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia Glacial",
+        "type": "consumable",
+        "item_id": "esencia_glacial",
+        "stats": {
+          "freeze_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Bosque",
+        "item_id": "key_04",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Flecha del Eco",
+        "type": "consumable",
+        "item_id": "flecha_eco",
+        "stats": {
+          "damage_bonus": 5,
+          "turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Mercado",
+        "item_id": "key_05",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Frasco de Nostalgia",
+        "type": "consumable",
+        "item_id": "frasco_nostalgia",
+        "stats": {
+          "nostalgia": true
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Forja",
+        "item_id": "key_06",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Hoja Reforzada",
+        "type": "weapon",
+        "item_id": "hoja_reforzada",
+        "stats": {
+          "damage": 23,
+          "durability": 80
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave del Pantano",
+        "item_id": "key_07",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Esencia del Pesar",
+        "type": "consumable",
+        "item_id": "esencia_pesar",
+        "stats": {
+          "poison_turns": 3
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Llave de la Biblioteca",
+        "item_id": "key_08",
+        "type": "key",
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      },
+      {
+        "name": "Pagina Maldita",
+        "type": "consumable",
+        "item_id": "pagina_maldita",
+        "stats": {
+          "confusion_turns": 2
+        },
+        "cantidad": 1,
+        "equipado": false,
+        "created_at": {
+          "$date": "2026-06-05T04:49:10.963Z"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-05T04:49:10.963Z"
+    }
+  }
+]
