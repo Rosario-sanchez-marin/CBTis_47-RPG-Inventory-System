@@ -1,0 +1,142 @@
+// =============================================================
+// S14 — Aggregation Intro
+// $match, $group, $count — Reportes básicos (Sumas, Conteos)
+//
+// ¿Qué es el Aggregation Pipeline?
+// Imagina una línea de ensamblaje de fábrica:
+// - Cada etapa ($match, $group, $count) es una estación
+// - Los documentos entran por un lado y se transforman en cada estación
+// - Al final del pipeline salen los datos procesados
+// A diferencia de find() que solo filtra y devuelve documentos,
+// el pipeline puede transformar, agrupar y calcular resultados.
+// =============================================================
+
+use('RPG_Inventory_System');
+
+// -------------------------------------------------------------
+// $count — Contar el total de jugadores registrados
+// Equivalente a SELECT COUNT(*) FROM players
+// -------------------------------------------------------------
+db.players.aggregate([
+  { $count: "total_jugadores" }
+]);
+
+// -------------------------------------------------------------
+// $match — Filtrar documentos (como WHERE en SQL)
+// Jugadores que llegaron al nivel 5 o más
+// Equivalente a SELECT * FROM players WHERE max_level_reached >= 5
+// -------------------------------------------------------------
+db.players.aggregate([
+  {
+    $match: { max_level_reached: { $gte: 5 } }
+  }
+]);
+
+// -------------------------------------------------------------
+// $match + $count — Contar jugadores avanzados
+// ¿Cuántos jugadores superaron el nivel 4?
+// -------------------------------------------------------------
+db.players.aggregate([
+  { $match: { max_level_reached: { $gt: 4 } } },
+  { $count: "jugadores_avanzados" }
+]);
+
+// -------------------------------------------------------------
+// $group — Agrupar jugadores por nivel alcanzado
+// Equivalente a SELECT max_level_reached, COUNT(*) FROM players GROUP BY max_level_reached
+// -------------------------------------------------------------
+db.players.aggregate([
+  {
+    $group: {
+      _id: "$max_level_reached",
+      total_jugadores: { $sum: 1 }
+    }
+  },
+  { $sort: { _id: 1 } }
+]);
+
+// -------------------------------------------------------------
+// $group — XP total y promedio por nivel
+// ¿Cuánto XP acumularon los jugadores de cada nivel?
+// -------------------------------------------------------------
+db.players.aggregate([
+  {
+    $group: {
+      _id: "$max_level_reached",
+      xp_total:    { $sum: "$xp" },
+      xp_promedio: { $avg: "$xp" },
+      total:       { $sum: 1 }
+    }
+  },
+  { $sort: { _id: 1 } }
+]);
+
+// -------------------------------------------------------------
+// $match + $group — XP promedio solo de jugadores avanzados
+// Solo jugadores en nivel 5+ agrupados por nivel
+// -------------------------------------------------------------
+db.players.aggregate([
+  { $match: { max_level_reached: { $gte: 5 } } },
+  {
+    $group: {
+      _id: "$max_level_reached",
+      xp_promedio:    { $avg: "$xp" },
+      total_jugadores: { $sum: 1 }
+    }
+  },
+  { $sort: { _id: 1 } }
+]);
+
+// -------------------------------------------------------------
+// $group — Contar jugadores por rango de HP
+// ¿Cuántos jugadores tienen HP alto, medio o bajo?
+// -------------------------------------------------------------
+db.players.aggregate([
+  {
+    $group: {
+      _id: {
+        $switch: {
+          branches: [
+            { case: { $gte: ["$stats.hp", 70] }, then: "Alto (70-100)" },
+            { case: { $gte: ["$stats.hp", 40] }, then: "Medio (40-69)" }
+          ],
+          default: "Bajo (0-39)"
+        }
+      },
+      total: { $sum: 1 }
+    }
+  },
+  { $sort: { _id: 1 } }
+]);
+
+// -------------------------------------------------------------
+// $match + $group + $count — Pipeline completo
+// Total de jugadores que tienen más de 1000 XP agrupados por nivel
+// -------------------------------------------------------------
+db.players.aggregate([
+  { $match: { xp: { $gt: 1000 } } },
+  {
+    $group: {
+      _id: "$max_level_reached",
+      total: { $sum: 1 },
+      xp_max: { $max: "$xp" }
+    }
+  },
+  { $sort: { total: -1 } }
+]);
+
+// -------------------------------------------------------------
+// $group en levels — Contar niveles por dificultad
+// ¿Cuántos niveles hay de cada dificultad?
+// Equivalente a SELECT difficulty, COUNT(*) FROM levels GROUP BY difficulty
+// -------------------------------------------------------------
+db.levels.aggregate([
+  {
+    $group: {
+      _id: "$difficulty",
+      total_niveles: { $sum: 1 },
+      xp_promedio:   { $avg: "$xp_reward" }
+    }
+  },
+  { $sort: { xp_promedio: 1 } }
+]);
