@@ -138,9 +138,6 @@ flutter run -d ios
   </tr>
 </table>
 
-> 🎬 **¡Mira nuestro desarrollo en acción!** > Puedes ver todo el proceso y el gameplay en nuestro canal de YouTube:  
-> 🔗 [**Nexus RPG Dev — Ver Devlog en YouTube**](https://youtu.be/0C-j4QkwRXA?si=HXXg2Hy6XNqPC-IN)
-
 ---
 
 ## 💻 Usage Examples
