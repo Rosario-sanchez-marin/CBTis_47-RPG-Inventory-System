@@ -1,0 +1,202 @@
+// =============================================================
+// S15 — Advanced Pipelines
+// $project, $sort, $limit, $lookup — Reportes complejos para UI
+//
+// ¿Qué es $lookup?
+// Es el equivalente a SQL JOIN en MongoDB.
+// Une documentos de dos colecciones distintas.
+// SQL:    SELECT * FROM players JOIN levels ON players.current_level = levels.level_number
+// Mongo:  $lookup: { from: "levels", localField: "current_level", foreignField: "level_number" }
+// =============================================================
+
+use('RPG_Inventory_System');
+
+// -------------------------------------------------------------
+// $sort — Ordenar jugadores por XP descendente
+// Equivalente a SELECT * FROM players ORDER BY xp DESC
+// -------------------------------------------------------------
+db.players.aggregate([
+  { $sort: { xp: -1 } },
+  {
+    $project: {
+      username: 1,
+      xp: 1,
+      max_level_reached: 1,
+      _id: 0
+    }
+  }
+]);
+
+// -------------------------------------------------------------
+// $sort + $limit — Top 5 jugadores con más XP
+// Equivalente a SELECT * FROM players ORDER BY xp DESC LIMIT 5
+// -------------------------------------------------------------
+db.players.aggregate([
+  { $sort: { xp: -1 } },
+  { $limit: 5 },
+  {
+    $project: {
+      username: 1,
+      xp: 1,
+      max_level_reached: 1,
+      totalKeys: 1,
+      _id: 0
+    }
+  }
+]);
+
+// -------------------------------------------------------------
+// $project — Transformar datos para la UI
+// Renombrar campos y calcular campos nuevos
+// Muestra solo lo necesario para la pantalla de perfil
+// -------------------------------------------------------------
+db.players.aggregate([
+  {
+    $project: {
+      _id: 0,
+      jugador: "$username",
+      correo: "$email",
+      nivel_actual: "$current_level",
+      nivel_maximo: "$max_level_reached",
+      puntos_xp: "$xp",
+      llaves: "$totalKeys",
+      vida: "$stats.hp",
+      items_en_mochila: { $size: "$inventory" }
+    }
+  }
+]);
+
+// -------------------------------------------------------------
+// $project + $sort — Ranking formateado para la UI
+// Jugadores ordenados por nivel y XP con campos renombrados
+// -------------------------------------------------------------
+db.players.aggregate([
+  {
+    $project: {
+      _id: 0,
+      jugador: "$username",
+      nivel: "$max_level_reached",
+      xp: 1,
+      llaves: "$totalKeys",
+      items: { $size: "$inventory" }
+    }
+  },
+  { $sort: { nivel: -1, xp: -1 } },
+  { $limit: 10 }
+]);
+
+// -------------------------------------------------------------
+// $lookup — JOIN entre players y levels
+// Une cada jugador con la info del nivel en que está
+// SQL: SELECT p.*, l.title, l.difficulty FROM players p
+//      JOIN levels l ON p.current_level = l.level_number
+// -------------------------------------------------------------
+db.players.aggregate([
+  {
+    $lookup: {
+      from: "levels",
+      localField: "current_level",
+      foreignField: "level_number",
+      as: "nivel_info"
+    }
+  },
+  {
+    $project: {
+      username: 1,
+      xp: 1,
+      current_level: 1,
+      "nivel_info.title": 1,
+      "nivel_info.difficulty": 1,
+      _id: 0
+    }
+  }
+]);
+
+// -------------------------------------------------------------
+// $lookup + $match — Jugadores en niveles Hard o Very Hard
+// Une con levels y filtra solo los que están en dificultad alta
+// -------------------------------------------------------------
+db.players.aggregate([
+  {
+    $lookup: {
+      from: "levels",
+      localField: "current_level",
+      foreignField: "level_number",
+      as: "nivel_info"
+    }
+  },
+  { $unwind: "$nivel_info" },
+  {
+    $match: {
+      "nivel_info.difficulty": { $in: ["Hard", "Very Hard"] }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      username: 1,
+      xp: 1,
+      nivel: "$nivel_info.title",
+      dificultad: "$nivel_info.difficulty"
+    }
+  },
+  { $sort: { xp: -1 } }
+]);
+
+// -------------------------------------------------------------
+// $lookup + $group — Contar jugadores por nivel con nombre del nivel
+// Reporte completo: cuántos jugadores hay en cada nivel y su nombre
+// -------------------------------------------------------------
+db.players.aggregate([
+  {
+    $lookup: {
+      from: "levels",
+      localField: "current_level",
+      foreignField: "level_number",
+      as: "nivel_info"
+    }
+  },
+  { $unwind: "$nivel_info" },
+  {
+    $group: {
+      _id: "$current_level",
+      nombre_nivel: { $first: "$nivel_info.title" },
+      dificultad:   { $first: "$nivel_info.difficulty" },
+      total_jugadores: { $sum: 1 },
+      xp_promedio:  { $avg: "$xp" }
+    }
+  },
+  { $sort: { _id: 1 } }
+]);
+
+// -------------------------------------------------------------
+// Reporte completo para UI — Pipeline con todas las etapas
+// Top 5 jugadores avanzados con info de su nivel actual
+// Listo para mostrar en una tabla del dashboard
+// -------------------------------------------------------------
+db.players.aggregate([
+  { $match: { max_level_reached: { $gte: 4 } } },
+  {
+    $lookup: {
+      from: "levels",
+      localField: "current_level",
+      foreignField: "level_number",
+      as: "nivel_info"
+    }
+  },
+  { $unwind: "$nivel_info" },
+  {
+    $project: {
+      _id: 0,
+      jugador:      "$username",
+      xp:           1,
+      nivel:        "$nivel_info.title",
+      dificultad:   "$nivel_info.difficulty",
+      llaves:       "$totalKeys",
+      vida:         "$stats.hp",
+      items:        { $size: "$inventory" }
+    }
+  },
+  { $sort: { xp: -1 } },
+  { $limit: 5 }
+]);
