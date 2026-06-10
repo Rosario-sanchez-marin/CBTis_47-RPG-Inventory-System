@@ -1,0 +1,85 @@
+// =============================================================
+// S8 — CRUD: Read (Básico)
+// Consultas simples al proyecto Nexus RPG
+// Colecciones: players, levels
+// =============================================================
+
+use('RPG_Inventory_System');
+
+// -------------------------------------------------------------
+// 1. find({}) — Equivalente a SELECT * en SQL
+//    Retorna TODOS los jugadores de la colección
+// -------------------------------------------------------------
+db.players.find({});
+
+// -------------------------------------------------------------
+// 2. find({}) con proyección — Equivalente a SELECT col1, col2
+//    Solo muestra username, email y xp (oculta _id y password)
+// -------------------------------------------------------------
+db.players.find(
+  {},
+  { username: 1, email: 1, xp: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// 3. findOne({}) — Retorna el primer documento que encuentre
+//    Equivalente a SELECT * ... LIMIT 1
+// -------------------------------------------------------------
+db.players.findOne({});
+
+// -------------------------------------------------------------
+// 4. findOne() por username — Buscar un jugador específico
+//    Equivalente a SELECT * WHERE username = 'shadowblade'
+// -------------------------------------------------------------
+db.players.findOne(
+  { username: "shadowblade" }
+);
+
+// -------------------------------------------------------------
+// 5. findOne() con proyección — Solo los datos del perfil
+//    Sin mostrar password_hash ni inventory
+// -------------------------------------------------------------
+db.players.findOne(
+  { username: "shadowblade" },
+  { username: 1, email: 1, xp: 1, current_level: 1, totalKeys: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// 6. find() filtrado — Jugadores que llegaron al nivel 5 o más
+//    Equivalente a SELECT * WHERE max_level_reached >= 5
+// -------------------------------------------------------------
+db.players.find(
+  { max_level_reached: { $gte: 5 } },
+  { username: 1, max_level_reached: 1, xp: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// 7. find() filtrado — Jugadores con más de 1000 XP
+// -------------------------------------------------------------
+db.players.find(
+  { xp: { $gt: 1000 } },
+  { username: 1, xp: 1, current_level: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// 8. find() en colección levels — Ver todos los niveles
+//    Equivalente a SELECT * FROM levels
+// -------------------------------------------------------------
+db.levels.find({});
+
+// -------------------------------------------------------------
+// 9. findOne() en levels — Buscar un nivel específico
+//    Equivalente a SELECT * FROM levels WHERE level_number = 1
+// -------------------------------------------------------------
+db.levels.findOne(
+  { level_number: 1 }
+);
+
+// -------------------------------------------------------------
+// 10. find() con proyección en levels — Solo nombre y dificultad
+//     Equivalente a SELECT title, difficulty FROM levels
+// -------------------------------------------------------------
+db.levels.find(
+  {},
+  { title: 1, difficulty: 1, level_number: 1, _id: 0 }
+);
