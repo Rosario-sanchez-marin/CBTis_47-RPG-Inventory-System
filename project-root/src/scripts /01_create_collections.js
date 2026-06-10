@@ -1,7 +1,7 @@
 
 
 const { MongoClient } = require('mongodb');
-const uri = "mongodb://nexus_admin:JqP5GJlU4snKGP8Z@ac-liunuac-shard-00-00.84rczkf.mongodb.net:27017,ac-liunuac-shard-00-01.84rczkf.mongodb.net:27017,ac-liunuac-shard-00-02.84rczkf.mongodb.net:27017/RPG_Inventory_System?ssl=true&replicaSet=atlas-r1ve1p-shard-0&authSource=admin&appName=RPG1";
+const uri = "mongodb://nexus_admin:contraseña@ac-liunuac-shard-00-00.84rczkf.mongodb.net:27017,ac-liunuac-shard-00-01.84rczkf.mongodb.net:27017,ac-liunuac-shard-00-02.84rczkf.mongodb.net:27017/RPG_Inventory_System?ssl=true&replicaSet=atlas-r1ve1p-shard-0&authSource=admin&appName=RPG1";
 const client = new MongoClient(uri);
 
 async function run() {
