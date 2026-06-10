@@ -1,10 +1,12 @@
-**SPRINT BACKLOG 2
+**SPRINT BACKLOG 2**
 
 ---
+
 sprint_backlog: "Sprint 2 - Core Gameplay & Final Content"
 product: "Nexus RPG: The Crown Schism"
 sprint_duration: "May 13 - June 6, 2026 (24 days)"
 capacity_plan: "40h/week -> ~120h total, 98h planned"
+
 ---
 
 ## 📌 Sprint Backlog Table of Contents
