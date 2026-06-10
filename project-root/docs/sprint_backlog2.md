@@ -1,8 +1,10 @@
-🏃 Sprint Backlog: Sprint 2 – Core Gameplay & Final Content
+🏃 Sprint Backlog: Sprint 2
+---
+– Core Gameplay & Final Content
 *Product:* Nexus RPG: The Crown Schism  
 *Sprint Duration:* May 13 – June 6, 2026 (24 days)  
 *Capacity Plan:* 8h/week → ∼28h total, 27h planificadas
-
+---
 OUTLINE
 1. Sprint Goal
 2. Sprint Parameters & Capacity Plan
@@ -11,7 +13,7 @@ OUTLINE
 5. Weekly Execution Roadmap
 6. Impediments & Dependencies
 7. Definition of Done (DoD)
-
+---
 1. Sprint Goal
 Deliver playable levels 4–10 with integrated UI, complete technical documentation, and a functional seed system accessible from the game interface, ensuring all components are connected to MongoDB Atlas.
 
