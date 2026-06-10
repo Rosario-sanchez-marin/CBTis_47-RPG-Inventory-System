@@ -1,0 +1,151 @@
+// =============================================================
+// S10 — Operadores Lógicos
+// $and, $or, $not — Consultas complejas de negocio
+// Colecciones: players, levels
+// =============================================================
+
+use('RPG_Inventory_System');
+
+// -------------------------------------------------------------
+// $or — Equivalente a OR en SQL
+// Jugadores que están en nivel 1 O que tienen menos de 200 XP
+// SQL: SELECT * WHERE current_level = 1 OR xp < 200
+// -------------------------------------------------------------
+db.players.find(
+  {
+    $or: [
+      { current_level: 1 },
+      { xp: { $lt: 200 } }
+    ]
+  },
+  { username: 1, current_level: 1, xp: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// $or — Jugadores con HP crítico O nivel bajo
+// Útil para identificar jugadores que necesitan ayuda
+// -------------------------------------------------------------
+db.players.find(
+  {
+    $or: [
+      { "stats.hp": { $lte: 30 } },
+      { max_level_reached: { $lte: 2 } }
+    ]
+  },
+  { username: 1, "stats.hp": 1, max_level_reached: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// $and — Equivalente a AND en SQL
+// Jugadores que tienen nivel >= 5 Y xp >= 1500
+// SQL: SELECT * WHERE max_level_reached >= 5 AND xp >= 1500
+// -------------------------------------------------------------
+db.players.find(
+  {
+    $and: [
+      { max_level_reached: { $gte: 5 } },
+      { xp: { $gte: 1500 } }
+    ]
+  },
+  { username: 1, max_level_reached: 1, xp: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// $and — Jugadores avanzados con HP alto
+// Jugadores en nivel 6+ Y con HP mayor a 70
+// Útil para identificar los jugadores más fuertes
+// -------------------------------------------------------------
+db.players.find(
+  {
+    $and: [
+      { max_level_reached: { $gte: 6 } },
+      { "stats.hp": { $gt: 70 } }
+    ]
+  },
+  { username: 1, max_level_reached: 1, "stats.hp": 1, xp: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// $not — Equivalente a NOT en SQL
+// Jugadores que NO están en nivel 1
+// SQL: SELECT * WHERE NOT current_level = 1
+// -------------------------------------------------------------
+db.players.find(
+  {
+    current_level: { $not: { $eq: 1 } }
+  },
+  { username: 1, current_level: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// $not — Jugadores que NO tienen XP bajo
+// Jugadores cuyo XP NO es menor a 500
+// -------------------------------------------------------------
+db.players.find(
+  {
+    xp: { $not: { $lt: 500 } }
+  },
+  { username: 1, xp: 1, current_level: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// $and + $or combinados — Consulta compleja de negocio
+// Jugadores VIP: nivel >= 6 Y (XP > 2000 O tiene 6+ llaves)
+// Identifica a los jugadores más avanzados del juego
+// -------------------------------------------------------------
+db.players.find(
+  {
+    $and: [
+      { max_level_reached: { $gte: 6 } },
+      {
+        $or: [
+          { xp: { $gt: 2000 } },
+          { totalKeys: { $gte: 6 } }
+        ]
+      }
+    ]
+  },
+  { username: 1, max_level_reached: 1, xp: 1, totalKeys: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// $or + $not combinados — Jugadores inactivos o principiantes
+// Jugadores que NO superaron nivel 3 O que tienen XP muy bajo
+// -------------------------------------------------------------
+db.players.find(
+  {
+    $or: [
+      { max_level_reached: { $not: { $gt: 3 } } },
+      { xp: { $lt: 300 } }
+    ]
+  },
+  { username: 1, max_level_reached: 1, xp: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// $and en levels — Niveles de dificultad Hard con XP > 600
+// SQL: SELECT * FROM levels WHERE difficulty = 'Hard' AND xp > 600
+// -------------------------------------------------------------
+db.levels.find(
+  {
+    $and: [
+      { difficulty: "Hard" },
+      { xp_reward: { $gt: 600 } }
+    ]
+  },
+  { title: 1, difficulty: 1, xp_reward: 1, _id: 0 }
+);
+
+// -------------------------------------------------------------
+// $or en levels — Niveles Tutorial O Epic
+// SQL: SELECT * FROM levels WHERE difficulty = 'Tutorial' OR difficulty = 'Epic'
+// -------------------------------------------------------------
+db.levels.find(
+  {
+    $or: [
+      { difficulty: "Tutorial" },
+      { difficulty: "Epic" }
+    ]
+  },
+  { title: 1, difficulty: 1, level_number: 1, _id: 0 }
+);
